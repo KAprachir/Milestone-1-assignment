@@ -23,6 +23,12 @@
     align-content: center;
 }
 
+.banner-btn button img , .challenge-content button img , .SB-container .SB-content p.points img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
 /* Main styles */
 /* nav bar styles */
 nav{
@@ -169,4 +175,49 @@ nav .logo{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* second brain style */
+.SB-container{
+    width: 1360px;
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    gap: 60px;
+}
+
+/* .SB-container .SB-content{
+    align-items: center;
+} */
+p#Solution {
+    color: #30B868;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+.SB-container .SB-content h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.SB-container .SB-content p#description{
+    color: #627382;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.SB-container .SB-content p.points{
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
 }
