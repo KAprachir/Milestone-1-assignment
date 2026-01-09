@@ -23,7 +23,7 @@
     align-content: center;
 }
 
-.banner-btn button img , .challenge-content button img , .SB-container .SB-content p.points img{
+.banner-btn button img , .EA-content button img , .SB-container .SB-content p.points img{
     vertical-align: middle;
     width: 20px;
     height: 20px;
@@ -188,9 +188,6 @@ nav .logo{
     gap: 60px;
 }
 
-/* .SB-container .SB-content{
-    align-items: center;
-} */
 p#Solution {
     color: #30B868;
     text-align: left;
@@ -220,4 +217,32 @@ p#Solution {
     font-weight: 500;
     line-height: 20px;
     text-align: left;
+}
+
+/* Early access STYLES */
+.EA-container{
+    width: 1360px;
+    margin: 0 auto 120px;
+    padding: 80px 40px;
+    background: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+    text-align: center;
+    gap: 24px;
+
+}
+.EA-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+.EA-content P{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.EA-content button{
+    margin-bottom: 24px;
 }
