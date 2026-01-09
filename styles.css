@@ -8,3 +8,43 @@
   font-optical-sizing: auto;
 
 }
+
+/* common styles */
+.btn{
+    background-color: #30B868;
+    padding: 12px 16px;
+    color: rgb(255, 255, 255);
+    line-height: 19px;
+    font-weight: 600;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+/* Main styles */
+/* nav bar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+nav .logo{
+    width: 139px;
+    height: 60px;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu ul li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+
+}
