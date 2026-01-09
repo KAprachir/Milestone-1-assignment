@@ -58,7 +58,7 @@ nav .logo{
 
 .banner-content{
     width: 1360px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding: 155px 341px 155px 341px;
 }
 .banner-content .banner-text{
@@ -114,4 +114,59 @@ nav .logo{
     text-align: left;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+/* Notes section Style */
+.note-container, .note-heading{
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.note-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding-top: 30px;
+}
+.note-heading p{
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 16px;;
+}
+
+.card-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 44px;
+
+}
+.card-box .card{
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 24px;
+    align-content: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.card-box .card img{
+    background: rgba(249, 85, 85, 1);
+    border-radius: 1000px;
+    padding: 10px;
+
+}
+.card-box .card h4{
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+
+
+}
+.card-box .card p{
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
